@@ -1,18 +1,18 @@
 {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Free five-letter word-guessing game for the terminal",
     "homepage": "https://github.com/pravin/letterlock",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pravin/letterlock/releases/download/v0.2.0/letterlock-v0.2.0-x86_64-pc-windows-msvc.zip",
-            "hash": "20800eff1ed2ee1b3d9085a268dd68f44ada50736599a75524bb9e36d6696dbe",
-            "extract_dir": "letterlock-v0.2.0-x86_64-pc-windows-msvc"
+            "url": "https://github.com/pravin/letterlock/releases/download/v0.3.0/letterlock-v0.3.0-x86_64-pc-windows-msvc.zip",
+            "hash": "6062455d08a985a03b49995bf42faf1fe5ce002800eec991e5fb572b9feeb45e",
+            "extract_dir": "letterlock-v0.3.0-x86_64-pc-windows-msvc"
         },
         "arm64": {
-            "url": "https://github.com/pravin/letterlock/releases/download/v0.2.0/letterlock-v0.2.0-aarch64-pc-windows-msvc.zip",
-            "hash": "d0fe7235a081c623a6547811cc4597c2902a9dca1d3cf3e848b765fbdff6b1fe",
-            "extract_dir": "letterlock-v0.2.0-aarch64-pc-windows-msvc"
+            "url": "https://github.com/pravin/letterlock/releases/download/v0.3.0/letterlock-v0.3.0-aarch64-pc-windows-msvc.zip",
+            "hash": "476354d1e8f1f9e456aa8cab003c38acac837bd5f0ae6d33a11b3acb75f3c937",
+            "extract_dir": "letterlock-v0.3.0-aarch64-pc-windows-msvc"
         }
     },
     "bin": "letterlock.exe",
