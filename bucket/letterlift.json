@@ -1,0 +1,35 @@
+{
+    "version": "0.1.0",
+    "description": "Word-ladder puzzle for the terminal: change one letter at a time",
+    "homepage": "https://github.com/pravin/letterlift",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pravin/letterlift/releases/download/v0.1.0/letterlift-v0.1.0-x86_64-pc-windows-msvc.zip",
+            "hash": "09280f09d8e39c05884e1bb6cf3f7f8dafbd327904eeb7559a94e3bbd8106924",
+            "extract_dir": "letterlift-v0.1.0-x86_64-pc-windows-msvc"
+        },
+        "arm64": {
+            "url": "https://github.com/pravin/letterlift/releases/download/v0.1.0/letterlift-v0.1.0-aarch64-pc-windows-msvc.zip",
+            "hash": "634e62503eb2b531966c18cc60a9e8e4dda03be03faaf1c300ef46012471e235",
+            "extract_dir": "letterlift-v0.1.0-aarch64-pc-windows-msvc"
+        }
+    },
+    "bin": "letterlift.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pravin/letterlift/releases/download/v$version/letterlift-v$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "letterlift-v$version-x86_64-pc-windows-msvc"
+            },
+            "arm64": {
+                "url": "https://github.com/pravin/letterlift/releases/download/v$version/letterlift-v$version-aarch64-pc-windows-msvc.zip",
+                "extract_dir": "letterlift-v$version-aarch64-pc-windows-msvc"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
