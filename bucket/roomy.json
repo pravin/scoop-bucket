@@ -1,12 +1,12 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Find out what's filling your disk, and clear out developer junk",
     "homepage": "https://github.com/pravin/roomy",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pravin/roomy/releases/download/v1.0.1/roomy-cli-1.0.1-x86_64-pc-windows-msvc.zip",
-            "hash": "010554601b8b692d57f5a007c6a8293463b3063fd18343780ebb1fa5ae742099"
+            "url": "https://github.com/pravin/roomy/releases/download/v1.0.2/roomy-cli-1.0.2-x86_64-pc-windows-msvc.zip",
+            "hash": "2f6e69674260b4af4f6932a4c41b0f639dd9a464121a977f7bdca59cb3a621c8"
         }
     },
     "bin": "roomy.exe",
